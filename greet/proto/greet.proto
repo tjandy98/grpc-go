@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package greet;
+
+option go_package = "github.com/tjandy98/grpc-go/greet/proto";
+
+message Greet{
+    uint32 id = 1;
+}
+
+service GreetService{
+    
+}
